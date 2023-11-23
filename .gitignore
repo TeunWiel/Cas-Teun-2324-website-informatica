@@ -1,0 +1,4 @@
+# list of files which are not pushed to github
+
+# logfile of webserver
+.nohup_webserver.out
