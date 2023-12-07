@@ -4,25 +4,22 @@
 
 nav {
     width: 100%;
-    height: 5%;
+    height: 100px;
     background-color: #404040;
-    font-size: 10pt;
-    font-family: robotica;
-    color: #ffffff;
     position: sticky;
     top: 0;
     z-index: 999;
-    transition: height 1s;
+    transition: height 0.5s;
 }
 
 nav:hover {
-    height: 40%;
-    transition: height 1s;
+    height: 300px;
+    transition: height 0.5s;
 }
 
 .homeheader {
     width: 100%;
-    height: 100%;
+    height: 1000px;
     background-color: #000000;
     font-size: 40pt;
     font-family: robotica;
@@ -31,7 +28,7 @@ nav:hover {
 
 .homearticle {
     width: 92%;
-    height: 100%;
+    height: 800px;
     background-color: #C2C2C2;
     font-size: 10pt;
     font-family: robotica;
@@ -39,4 +36,21 @@ nav:hover {
     margin: 2%;
     padding: 2%;
     border-radius: 50px;
+}
+
+.navlink {
+    width: 15%;
+    height: 40px;
+    float: left;
+    margin: 2%;
+    text-align: center;
+    vertical-align: auto;
+    font-size: 10pt;
+    font-family: robotica;
+    color: #C2C2C2;
+    text-decoration: none;
+}
+
+.navlink:hover {
+    color: #ffffff;
 }
