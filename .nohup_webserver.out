@@ -17,3 +17,10 @@ Available on:
   http://172.16.5.4:8080
 Hit CTRL-C to stop the server
 
+[2023-12-04T12:14:36.278Z]  "GET /" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+(node:478) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2023-12-04T12:14:36.775Z]  "GET /favicon.ico" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+[2023-12-04T12:14:36.776Z]  "GET /favicon.ico" Error (404): "Not found"
+[2023-12-04T12:14:44.529Z]  "GET /html-bestanden/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+[2023-12-04T12:14:45.963Z]  "GET /html-bestanden/main.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
