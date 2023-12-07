@@ -85,3 +85,8 @@ footer {
    font-size: 10pt;
    font-family: robotica;
 }
+
+header img {
+   float: left;
+   height: 980px
+}
