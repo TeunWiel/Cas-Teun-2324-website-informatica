@@ -18,11 +18,13 @@
 
 /* add your css here, feel free to use comments and order them logically for better readability */
 
+/*************************STANDAARDMARGIN*************************/
 * {
    margin: 0;
 }
 
-/*navigation, goed, niets meer aan doen*/
+/*************************NAVIGATION*************************/
+/*Goed zo, niks meer aan doen*/
 nav {
    width: 100%;
    height: 70px;
@@ -30,10 +32,10 @@ nav {
 }
 
 .navlink {
-   width: 6%;
+   width: 10%;
    height: 50px;
    float: left;
-   margin: 10px 5%;
+   margin: 10px 3%;
 
    line-height: 50px;
 
@@ -48,26 +50,38 @@ nav {
    color: #ffffff;
 }
 
+@keyframes logo {                /*dit is gewoon onzin voor de logo animatie*/
+   0%   {left:0px; top:0px;}     /* " */
+   25%  {eft:200px; top:0px;}    /* " */
+   50%  {left:200px; top:200px;} /* " */
+   75%  {left:0px; top:200px;}   /* " */
+   100% {left:0px; top:0px;}     /*kunnen we later weghalen, voor nu wel geinig*/
+}
+
 .navlogo {
    height: 50px;
    float: left;
    margin: 10px 5%;
+   position: relative;                          /*dit is gewoon onzin voor de logo animatie*/
+   /* animation: logo 5s 2s 2 alternate; */     /*kunnen we later weghalen, voor nu wel geinig*/
 }
 
 
-/*header*/
+/*************************HEADER*************************/
 .homeheader {
    width: 100%;
    height: 1000px;
    background-color: #000000;
+   padding: 10px;
 
    font-size: 40pt;
    font-family: robotica;
    color: #ffffff;
+   text-align: center;
 }
 
 
-/*articles*/
+/*************************ARTICLES*************************/
 .homearticle {
    width: 92%;
    height: 800px;
@@ -81,8 +95,17 @@ nav {
    border-radius: 50px;
 }
 
+.homearticle:hover {
+   width: 94%;
+   margin: 2% 1%;
+}
 
-/*footer*/
+.wrapper{
+   margin: auto;
+}
+
+
+/*************************FOOTER*************************/
 footer {
    width: 100%;
    height: 200px;
