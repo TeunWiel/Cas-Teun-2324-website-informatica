@@ -76,7 +76,8 @@ nav {
 
    font-size: 40pt;
    font-family: robotica;
-   color: #ffffff;
+   color: #F90000;
+   font-weight: bold;
    text-align: center;
 }
 
@@ -100,16 +101,38 @@ nav {
    margin: 2% 1%;
 }
 
-.wrapper{
-   margin: auto;
-}
-
 
 /*************************FOOTER*************************/
+/*Goed zo, niks meer aan doen*/
 footer {
    width: 100%;
    height: 200px;
    background-color: #404040;
    font-size: 10pt;
    font-family: robotica;
+
+   color: #C2C2C2;
+}
+
+
+.footerblok {
+   width: 20%;
+   float: left;
+   margin: 10px 2%;
+}
+
+.footlink {
+   text-align: center;
+   font-size: 10pt;
+   font-family: robotica;
+   color: #C2C2C2;
+   text-decoration: none;
+}
+
+.footlink:hover {
+   color: #ffffff;
+}
+
+#leftFooterblok {
+   margin-left: 16%;
 }
