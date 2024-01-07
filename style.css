@@ -52,7 +52,7 @@ nav {
 
 @keyframes logo {                /*dit is gewoon onzin voor de logo animatie*/
    0%   {left:0px; top:0px;}     /* " */
-   25%  {eft:200px; top:0px;}    /* " */
+   25%  {left:200px; top:0px;}    /* " */
    50%  {left:200px; top:200px;} /* " */
    75%  {left:0px; top:200px;}   /* " */
    100% {left:0px; top:0px;}     /*kunnen we later weghalen, voor nu wel geinig*/
