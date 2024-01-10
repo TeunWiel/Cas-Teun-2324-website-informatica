@@ -101,15 +101,15 @@ nav {
 
 /*************************ARTICLES*************************/
 .homearticle {
-   width: 92%;
-   height: 800px;
+   width: 1000px;
+   height: 700px;
    background-color: #C2C2C2;
    
    font-size: 10pt;
    font-family: robotica;
    color: #000000;
-   margin: 2%;
-   padding: 2%;
+   margin: 2% auto;
+   /*padding: 2%;*/
    border-radius: 50px;
 }
 
@@ -201,7 +201,6 @@ footer {
    border-bottom: 1px dotted black;
  }
  
- /* Tooltip text */
  .tooltip .tooltiptext {
    visibility: hidden;
    width: 150px;
@@ -211,14 +210,22 @@ footer {
    padding: 5px 0;
    border-radius: 6px;
   
-   /* Position the tooltip text - see examples below! */
    position: absolute;
    z-index: 1;
    top: -5px;
    left: 120%;
  }
  
- /* Show the tooltip text when you mouse over the tooltip container */
  .tooltip:hover .tooltiptext {
    visibility: visible;
+ }
+
+ /*************************IMAGES*************************/
+
+ .homeimg {
+   height: 700px;
+   width: 1000px;
+   position: absolute;
+   object-fit: cover;
+   border-radius: 50px;
  }
