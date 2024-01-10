@@ -24,7 +24,6 @@
 }
 
 /*************************NAVIGATION*************************/
-/*Goed zo, niks meer aan doen*/
 nav {
    width: 100%;
    height: 70px;
@@ -70,37 +69,94 @@ nav {
 }
 
 
-/*************************HEADER*************************/
+/*************************HOMEHEADER*************************/
 .homeheader {
    width: 90%;
-   height: 1000px;
-   /*background-color: #000000;*/
-   padding: 0 5%;
+   height: 900px;
    z-index: -2;
-
-   font-size: 20pt;
-   font-family: robotica;
-   color: #ffffff;
-}
-.homeheader h1{
-   text-align: center;
-   color: #F90000;
-   font-weight: bold;
-   font-size: 40pt;
 }
 
 .homevid {
    position: absolute;
    left: 0;
-   height: 1000px;
+   height: 900px;
    width: 100%;
    object-fit: cover;
    z-index: -1;
 }
 
+.hometext{
+   background-color:#ffffff;
+   opacity: 0.5;
+
+   width: 40%;
+   height: 220px;
+   border-radius: 50px;
+   margin: 5%;
+   padding: 20px;
+
+   z-index: 3;
+   position: absolute;
+
+   color: black;
+   font-size: 20pt;
+ }
+
+ .hometext h1{
+   color: #0070FA;
+   font-size: 40pt;
+ }
+
+/*************************HOMEPAGE*************************/
+.homearticle {
+   width: 70%;
+   height: 700px;
+   background-color: #C2C2C2;
+   
+   font-size: 10pt;
+   font-family: robotica;
+   color: #000000;
+   margin: 2% auto;
+   /*padding: 2%;*/
+   border-radius: 50px;
+   transition: width 1s;
+}
+
+
+ .homeimg {
+   height: 700px;
+   width: 70%;
+   position: absolute;
+   object-fit: cover;
+   border-radius: 50px;
+   transition: width 1s;
+ }
+
+.homearticle:hover   .homeimg       {width: 80%;}
+.homearticle:hover   .homesubtitle  {width: 80%;}
+.homearticle:hover                  {width: 80%;}
+
+ .homesubtitle {
+   opacity: 0.6;
+   background-color: #ffffff;
+   z-index: 3;
+   transition: width 1s;
+   color: #000000;
+
+   width: 70%;
+   height: 50px;
+   position: absolute;
+   /*margin: 0 auto;*/
+   margin-top: 20px;
+
+   font-size: 30pt;
+   font-weight: bold;
+   text-align: center;
+   line-height: 50px;
+ }
+
 
 /*************************ARTICLES*************************/
-
 
 .eenderdewrapper {
    width: 95%;
@@ -138,7 +194,7 @@ nav {
    overflow: auto;
 }
 
-.digiheader {
+.subheader {
    width: 85%;
    margin: 30px 5.5%;
    height: 100px;
@@ -149,7 +205,6 @@ nav {
 }
 
 /*************************FOOTER*************************/
-/*Goed zo, niks meer aan doen*/
 footer {
    width: 100%;
    height: 200px;
@@ -209,50 +264,4 @@ footer {
    visibility: visible;
  }
 
- /*************************HOMEPAGE*************************/
- .homearticle {
-   width: 70%;
-   height: 700px;
-   background-color: #C2C2C2;
-   
-   font-size: 10pt;
-   font-family: robotica;
-   color: #000000;
-   margin: 2% auto;
-   /*padding: 2%;*/
-   border-radius: 50px;
-   transition: width 1s;
-}
-
-
- .homeimg {
-   height: 700px;
-   width: 70%;
-   position: absolute;
-   object-fit: cover;
-   border-radius: 50px;
-   transition: width 1s;
- }
-
-.homearticle:hover   .homeimg       {width: 80%;}
-.homearticle:hover   .homesubtitle  {width: 80%;}
-.homearticle:hover                  {width: 80%;}
-
- .homesubtitle {
-   opacity: 0.6;
-   background-color: #ffffff;
-   z-index: 3;
-   transition: width 1s;
-   color: #000000;
-
-   width: 70%;
-   height: 50px;
-   position: absolute;
-   /*margin: 0 auto;*/
-   margin-top: 20px;
-
-   font-size: 30pt;
-   font-weight: bold;
-   text-align: center;
-   line-height: 50px;
- }
+ 
