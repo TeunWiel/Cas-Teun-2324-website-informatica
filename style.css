@@ -113,7 +113,7 @@ nav {
    border-radius: 50px;
 }
 
-#digiwrapper {
+.eenderdewrapper {
    width: 95%;
    height: 420px;
    margin: auto;
@@ -127,6 +127,24 @@ nav {
    margin: 0 3%;
    border-radius: 50px;
    height: 400px;
+   padding: 10px 2%;
+   overflow: auto;
+}
+
+.eenzesdewrapper {
+   width: 95%;
+   height: 210px;
+   margin: auto;
+   margin-bottom: 30px;
+}
+
+.eenzesdearticle {
+   width: 23.33%;
+   background-color: #C2C2C2;
+   float: left;
+   margin: 0 3%;
+   border-radius: 50px;
+   height: 200px;
    padding: 10px 2%;
    overflow: auto;
 }
