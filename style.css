@@ -61,9 +61,9 @@ nav {
 
 @keyframes logo {                /*dit is gewoon onzin voor de logo animatie*/
    0%   {left:0px; top:0px;}     /* " */
-   /*25%  {left:200px; top:0px;}    /* " */
-   50%  {left:200px; top:000px;} /* " */
-   /*75%  {left:0px; top:200px;}   /* " */
+   25%  {left:200px; top:0px;}    /* " */
+   50%  {left:200px; top:200px;} /* " */
+   75%  {left:0px; top:200px;}   /* " */
    100% {left:0px; top:0px;}     /*kunnen we later weghalen, voor nu wel geinig*/
 }
 
@@ -72,12 +72,16 @@ nav {
    float: left;
    margin: 10px 5%;
    position: relative;                          /*dit is gewoon onzin voor de logo animatie*/
-   /*animation: logo 4s 2s infinite alternate;     /*kunnen we later weghalen, voor nu wel geinig*/
+   /*animation: logo 0.0001s 2s 100000 alternate;     /*kunnen we later weghalen, voor nu wel geinig*/
    -webkit-transition: -webkit-transform 1s;
 }
 
+/*.navlogo:active{
+   animation: logo 0.0001s 100000 alternate;   
+}*/
+
 .navlogo:hover {
-   -webkit-transform: rotate(360deg) translateZ(0)
+   -webkit-transform: rotate(360deg) translateZ(0);
 }
 
 
