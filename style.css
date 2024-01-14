@@ -182,7 +182,7 @@ nav {
 
 .eenderdewrapper {
    width: 95%;
-   height: 420px;
+   height: 410px;
    margin: auto;
    margin-bottom: 60px;
 }
@@ -192,26 +192,6 @@ nav {
    background-color: #C2C2C2;
    background: radial-gradient(#e7e7e7, #C2C2C2);
    box-shadow: 20px 20px 10px rgb(145, 145, 145);
-   float: left;
-   margin: 0 3%;
-   border-radius: 50px;
-   height: 400px;
-   padding: 10px 2%;
-   overflow: auto;
-}
-
-.eennegendewrapper {
-   width: 95%;
-   height: 410px;
-   margin: auto;
-   margin-bottom: 60px;
-}
-
-.eennegendearticle {
-   width: 23.33%;
-   background-color: #C2C2C2;
-   background: radial-gradient(#e7e7e7, #C2C2C2);
-   box-shadow: 15px 15px 10px rgb(145, 145, 145);
    float: left;
    margin: 0 3%;
    border-radius: 50px;
