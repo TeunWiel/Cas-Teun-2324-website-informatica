@@ -69,10 +69,12 @@ nav {
    margin: 10px 5%;
 
    position: relative;
+   transition: -webkit-transform 1s;
    -webkit-transition: -webkit-transform 1s;
 }
 
 .navlogo:hover {
+   transform: rotate(360deg) translateZ(0);
    -webkit-transform: rotate(360deg) translateZ(0);
 }
 
