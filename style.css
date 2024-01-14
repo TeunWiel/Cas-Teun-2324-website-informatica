@@ -202,16 +202,13 @@ nav {
 
 .subheader {
    width: 85%;
-   height: fit-content;    /*Werkt niet??*/
+   height: fit-content;
    margin: 60px 5.5%;
    background-color: #C2C2C2;
    background: radial-gradient(#e7e7e7, #C2C2C2);
    box-shadow: 20px 20px 10px rgb(145, 145, 145);
    border-radius: 30px;
    padding: 10px 2%;
-}
-
-.subheader h1{
    text-align: center;
 }
 
