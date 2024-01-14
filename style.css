@@ -53,6 +53,7 @@ nav {
 
    text-overflow: ellipsis;
    overflow: hidden;
+   white-space: nowrap;
 }
 
 .navlink:hover {
@@ -110,6 +111,7 @@ nav {
 
    color: black;
    font-size: 20pt;
+
  }
 
  .hometext h1{
@@ -197,7 +199,7 @@ nav {
    position: sticky;
    top:0;
    background-color: #c2c2c2;
-   height: 40px;
+   height: fit-content;
    line-height: 40px;
    z-index: 3;
 }
