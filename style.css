@@ -165,7 +165,7 @@ nav {
    color: #000000;
 
    width: 70%;
-   height: 50px;
+   height: fit-content;
    position: absolute;
    margin-top: 20px;
 
