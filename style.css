@@ -190,22 +190,29 @@ nav {
 .eenderdearticle {
    width: 23.33%;
    background-color: #C2C2C2;
-   background: radial-gradient(#e7e7e7, #C2C2C2);
    box-shadow: 20px 20px 10px rgb(145, 145, 145);
    float: left;
    margin: 0 3%;
    border-radius: 50px;
    height: 400px;
-   padding: 10px 2%;
+   padding: 0 2% 10px 2%;
    overflow: auto;
+}
+
+.eenderdearticle h1 {
+   position: sticky;
+   top:0;
+   background-color: #c2c2c2;
+   height: 40px;
+   line-height: 40px;
+   z-index: 3;
 }
 
 .subheader {
    width: 85%;
    height: fit-content;
-   margin: 60px 5.5%;
+   margin: 30px 5.5% 60px 5.5%;
    background-color: #C2C2C2;
-   background: radial-gradient(#e7e7e7, #C2C2C2);
    box-shadow: 20px 20px 10px rgb(145, 145, 145);
    border-radius: 30px;
    padding: 10px 2%;
@@ -214,7 +221,6 @@ nav {
 
 .imgarticle {
    background-color: #C2C2C2;
-   background: radial-gradient(#e7e7e7, #C2C2C2);
    box-shadow: 15px 15px 10px rgb(145, 145, 145);
 
    float: left;
