@@ -235,14 +235,13 @@ nav {
 /*************************FOOTER*************************/
 footer {
    width: 100%;
-   min-height: 200px;
+   height: 200px;
    background-color: #404040;
    font-size: 10pt;
    font-family: robotica;
 
    color: #C2C2C2;
 }
-
 
 .footerblok {
    width: 20%;
@@ -256,6 +255,7 @@ footer {
    font-family: robotica;
    color: #C2C2C2;
    text-decoration: none;
+
 }
 
 .footlink:hover {
